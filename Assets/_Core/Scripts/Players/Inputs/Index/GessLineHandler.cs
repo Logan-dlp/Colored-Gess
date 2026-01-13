@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System;
-using ColoredGess.Colors;
 
 namespace ColoredGess.Players
 {
+    using Colors;
+    
     public class GessLineHandler : MonoBehaviour
     {
         public Action<int> OnIndexChange;
@@ -58,6 +59,11 @@ namespace ColoredGess.Players
         public void SetUpCursorPosition(int line, int index)
         {
             _cursorObject.transform.position = _lineArray[line].transform.GetChild(index).transform.position;
+        }
+
+        public Vector3 GetPositionAt(int line)
+        {
+            return _lineArray[line].transform.GetChild(0).transform.position;
         }
 
         private void SetUpCursorPosition(Vector3 position)
