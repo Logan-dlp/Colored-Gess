@@ -37,6 +37,9 @@ namespace ColoredGess.Players
 
         public void DisableLine(int index)
         {
+            if (_cursorObject.activeSelf)
+                _cursorObject.SetActive(false);
+            
             foreach (Transform child in _lineArray[index].transform)
             {
                 if (child.TryGetComponent(out IndexController indexController))
@@ -68,6 +71,9 @@ namespace ColoredGess.Players
 
         private void SetUpCursorPosition(Vector3 position)
         {
+            if (!_cursorObject.activeSelf)
+                _cursorObject.SetActive(true);
+            
             _cursorObject.transform.position = position;
         }
     }
