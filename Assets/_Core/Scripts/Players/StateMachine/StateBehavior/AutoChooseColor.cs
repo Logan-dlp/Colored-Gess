@@ -26,7 +26,7 @@ namespace ColoredGess.Players
                 }
             }
             
-            return new SubmitColor();
+            return new PlaceCamera();
         }
 
         public void Exit(PlayerStateData data)
