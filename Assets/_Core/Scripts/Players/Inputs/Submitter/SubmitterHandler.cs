@@ -8,5 +8,10 @@ namespace ColoredGess.Players
     public class SubmitterHandler : MonoBehaviour
     {
         public Action<ColorsType> OnSubmittedColors;
+        
+        public Action OnValidateColors;
+        
+        public Action OnActivateValidateInputs;
+        public Action OnDesactivateValidateInputs;
     }
 }

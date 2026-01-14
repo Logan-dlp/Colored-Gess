@@ -9,6 +9,9 @@ namespace ColoredGess.Players
     {
         private readonly ColorsType[] _colorSubmitArray = new ColorsType[ColoredGessParameter.MaxColorsToGess];
         
+        private bool _isActivateValid;
+        private bool _isTryToNext;
+        
         private int _colorIndex;
         private int _lineIndex;
         
@@ -31,6 +34,7 @@ namespace ColoredGess.Players
             _lineHandler.EnableLine(data.CurrentLineIndex);
             
             _submitterHandler.OnSubmittedColors += SubmitColors;
+            _submitterHandler.OnValidateColors += TryToNext;
         }
 
         public IState<PlayerStateData> Update(PlayerStateData data)
@@ -48,9 +52,17 @@ namespace ColoredGess.Players
                     if (colorsType == ColorsType.UNDEFINED)
                         return null;
                 }
-                
-                Debug.Log(_colorSubmitArray);
-                // return new AutoChooseColor();
+
+                if (!_isActivateValid)
+                {
+                    _submitterHandler.OnActivateValidateInputs?.Invoke();
+                    _isActivateValid = true;
+                }
+
+                if (_isTryToNext)
+                {
+                    Debug.Log("Trying to Next Color");
+                }
             }
             return null;
         }
@@ -59,7 +71,10 @@ namespace ColoredGess.Players
         {
             _lineHandler.OnIndexChange -= (index) => _colorIndex = index;
             _lineHandler.DisableLine(data.CurrentLineIndex);
+            
+            _submitterHandler.OnDesactivateValidateInputs?.Invoke();
             _submitterHandler.OnSubmittedColors -= SubmitColors;
+            _submitterHandler.OnValidateColors -= TryToNext;
         }
 
         private void SubmitColors(ColorsType colorsType)
@@ -78,6 +93,11 @@ namespace ColoredGess.Players
         {
             _colorIndex++;
             _lineHandler.SetUpCursorPosition(_lineIndex, _colorIndex);
+        }
+
+        private void TryToNext()
+        {
+            _isTryToNext = true;
         }
     }
 }
