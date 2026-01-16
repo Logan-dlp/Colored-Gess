@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 14812293}
   - component: {fileID: 14812296}
   - component: {fileID: 14812295}
-  - component: {fileID: 14812294}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -153,19 +152,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1542107819}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &14812294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14812292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &14812295
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -406,7 +392,6 @@ GameObject:
   - component: {fileID: 66269242}
   - component: {fileID: 66269245}
   - component: {fileID: 66269244}
-  - component: {fileID: 66269243}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -429,19 +414,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1542107819}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &66269243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66269241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &66269244
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -592,7 +564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &144472029
 Transform:
   m_ObjectHideFlags: 0
@@ -623,7 +595,6 @@ GameObject:
   - component: {fileID: 198510337}
   - component: {fileID: 198510340}
   - component: {fileID: 198510339}
-  - component: {fileID: 198510338}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -646,19 +617,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1554676601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &198510338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198510336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &198510339
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -761,7 +719,6 @@ GameObject:
   - component: {fileID: 204660400}
   - component: {fileID: 204660403}
   - component: {fileID: 204660402}
-  - component: {fileID: 204660401}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -784,19 +741,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 695727136}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &204660401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204660399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &204660402
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -899,7 +843,6 @@ GameObject:
   - component: {fileID: 244252311}
   - component: {fileID: 244252314}
   - component: {fileID: 244252313}
-  - component: {fileID: 244252312}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -922,19 +865,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 735308232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &244252312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 244252310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &244252313
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1037,7 +967,6 @@ GameObject:
   - component: {fileID: 252220947}
   - component: {fileID: 252220950}
   - component: {fileID: 252220949}
-  - component: {fileID: 252220948}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -1060,19 +989,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1417786816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &252220948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252220946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &252220949
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1317,7 +1233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &349184695
 Transform:
   m_ObjectHideFlags: 0
@@ -1348,7 +1264,6 @@ GameObject:
   - component: {fileID: 416526107}
   - component: {fileID: 416526110}
   - component: {fileID: 416526109}
-  - component: {fileID: 416526108}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -1371,19 +1286,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1417786816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &416526108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416526106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &416526109
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1486,7 +1388,6 @@ GameObject:
   - component: {fileID: 452458329}
   - component: {fileID: 452458332}
   - component: {fileID: 452458331}
-  - component: {fileID: 452458330}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -1509,19 +1410,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 144472029}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &452458330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452458328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &452458331
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1628,7 +1516,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &515450262
 Transform:
   m_ObjectHideFlags: 0
@@ -1663,7 +1551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &527936726
 Transform:
   m_ObjectHideFlags: 0
@@ -1694,7 +1582,6 @@ GameObject:
   - component: {fileID: 535959638}
   - component: {fileID: 535959641}
   - component: {fileID: 535959640}
-  - component: {fileID: 535959639}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -1717,19 +1604,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1417786816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &535959639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535959637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &535959640
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2181,7 +2055,6 @@ GameObject:
   - component: {fileID: 622483938}
   - component: {fileID: 622483941}
   - component: {fileID: 622483940}
-  - component: {fileID: 622483939}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -2204,19 +2077,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 653535816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &622483939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622483937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &622483940
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2461,7 +2321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &653535816
 Transform:
   m_ObjectHideFlags: 0
@@ -2540,6 +2400,17 @@ MonoBehaviour:
   _cursorObject: {fileID: 1290298827}
   _lineArray:
   - {fileID: 962562083}
+  - {fileID: 1542107818}
+  - {fileID: 1424156353}
+  - {fileID: 1554676600}
+  - {fileID: 515450261}
+  - {fileID: 695727135}
+  - {fileID: 527936725}
+  - {fileID: 1417786815}
+  - {fileID: 653535815}
+  - {fileID: 349184694}
+  - {fileID: 735308231}
+  - {fileID: 144472028}
 --- !u!1 &695727135
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,7 +2426,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &695727136
 Transform:
   m_ObjectHideFlags: 0
@@ -2590,7 +2461,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &735308232
 Transform:
   m_ObjectHideFlags: 0
@@ -2621,7 +2492,6 @@ GameObject:
   - component: {fileID: 736531753}
   - component: {fileID: 736531756}
   - component: {fileID: 736531755}
-  - component: {fileID: 736531754}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -2644,19 +2514,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 735308232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &736531754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 736531752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &736531755
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2759,7 +2616,6 @@ GameObject:
   - component: {fileID: 780263087}
   - component: {fileID: 780263090}
   - component: {fileID: 780263089}
-  - component: {fileID: 780263088}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -2782,19 +2638,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 695727136}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &780263088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 780263086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &780263089
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2897,7 +2740,6 @@ GameObject:
   - component: {fileID: 782468838}
   - component: {fileID: 782468841}
   - component: {fileID: 782468840}
-  - component: {fileID: 782468839}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -2920,19 +2762,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1424156354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &782468839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782468837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &782468840
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3035,7 +2864,6 @@ GameObject:
   - component: {fileID: 805154674}
   - component: {fileID: 805154677}
   - component: {fileID: 805154676}
-  - component: {fileID: 805154675}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -3058,19 +2886,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 527936726}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &805154675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805154673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &805154676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3173,7 +2988,6 @@ GameObject:
   - component: {fileID: 818547303}
   - component: {fileID: 818547306}
   - component: {fileID: 818547305}
-  - component: {fileID: 818547304}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -3196,19 +3010,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 653535816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &818547304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818547302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &818547305
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3485,7 +3286,6 @@ GameObject:
   - component: {fileID: 906736543}
   - component: {fileID: 906736546}
   - component: {fileID: 906736545}
-  - component: {fileID: 906736544}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -3508,19 +3308,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 735308232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &906736544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906736542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &906736545
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3848,7 +3635,6 @@ GameObject:
   - component: {fileID: 962343855}
   - component: {fileID: 962343858}
   - component: {fileID: 962343857}
-  - component: {fileID: 962343856}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -3871,19 +3657,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1542107819}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &962343856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962343854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &962343857
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4159,7 +3932,6 @@ GameObject:
   - component: {fileID: 1075271970}
   - component: {fileID: 1075271973}
   - component: {fileID: 1075271972}
-  - component: {fileID: 1075271971}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -4182,19 +3954,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 349184695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1075271971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075271969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1075271972
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4297,7 +4056,6 @@ GameObject:
   - component: {fileID: 1076835616}
   - component: {fileID: 1076835619}
   - component: {fileID: 1076835618}
-  - component: {fileID: 1076835617}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -4320,19 +4078,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 735308232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1076835617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076835615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1076835618
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4435,7 +4180,6 @@ GameObject:
   - component: {fileID: 1080295963}
   - component: {fileID: 1080295966}
   - component: {fileID: 1080295965}
-  - component: {fileID: 1080295964}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -4458,19 +4202,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1542107819}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1080295964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080295962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1080295965
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4573,7 +4304,6 @@ GameObject:
   - component: {fileID: 1118710575}
   - component: {fileID: 1118710578}
   - component: {fileID: 1118710577}
-  - component: {fileID: 1118710576}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -4596,19 +4326,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 515450262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1118710576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118710574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1118710577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4851,7 +4568,6 @@ GameObject:
   - component: {fileID: 1153596744}
   - component: {fileID: 1153596747}
   - component: {fileID: 1153596746}
-  - component: {fileID: 1153596745}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -4874,19 +4590,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1554676601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1153596745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153596743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1153596746
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5113,7 +4816,6 @@ GameObject:
   - component: {fileID: 1249178880}
   - component: {fileID: 1249178883}
   - component: {fileID: 1249178882}
-  - component: {fileID: 1249178881}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -5136,19 +4838,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1424156354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1249178881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1249178879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1249178882
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5283,7 +4972,6 @@ GameObject:
   - component: {fileID: 1300256979}
   - component: {fileID: 1300256982}
   - component: {fileID: 1300256981}
-  - component: {fileID: 1300256980}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -5306,19 +4994,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 349184695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1300256980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1300256978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1300256981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5421,7 +5096,6 @@ GameObject:
   - component: {fileID: 1311933056}
   - component: {fileID: 1311933059}
   - component: {fileID: 1311933058}
-  - component: {fileID: 1311933057}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -5444,19 +5118,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 515450262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1311933057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311933055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1311933058
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5559,7 +5220,6 @@ GameObject:
   - component: {fileID: 1381029990}
   - component: {fileID: 1381029993}
   - component: {fileID: 1381029992}
-  - component: {fileID: 1381029991}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -5582,19 +5242,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 349184695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1381029991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1381029989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1381029992
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5697,7 +5344,6 @@ GameObject:
   - component: {fileID: 1416624817}
   - component: {fileID: 1416624820}
   - component: {fileID: 1416624819}
-  - component: {fileID: 1416624818}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -5720,19 +5366,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 515450262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1416624818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1416624816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1416624819
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5839,7 +5472,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1417786816
 Transform:
   m_ObjectHideFlags: 0
@@ -5874,7 +5507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1424156354
 Transform:
   m_ObjectHideFlags: 0
@@ -6076,7 +5709,6 @@ GameObject:
   - component: {fileID: 1540996663}
   - component: {fileID: 1540996666}
   - component: {fileID: 1540996665}
-  - component: {fileID: 1540996664}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -6099,19 +5731,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 653535816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1540996664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1540996662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1540996665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6218,7 +5837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1542107819
 Transform:
   m_ObjectHideFlags: 0
@@ -6249,7 +5868,6 @@ GameObject:
   - component: {fileID: 1553405067}
   - component: {fileID: 1553405070}
   - component: {fileID: 1553405069}
-  - component: {fileID: 1553405068}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -6272,19 +5890,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1554676601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1553405068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553405066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1553405069
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6391,7 +5996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1554676601
 Transform:
   m_ObjectHideFlags: 0
@@ -6422,7 +6027,6 @@ GameObject:
   - component: {fileID: 1560224766}
   - component: {fileID: 1560224769}
   - component: {fileID: 1560224768}
-  - component: {fileID: 1560224767}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -6445,19 +6049,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 695727136}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1560224767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560224765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1560224768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6560,7 +6151,6 @@ GameObject:
   - component: {fileID: 1606344039}
   - component: {fileID: 1606344042}
   - component: {fileID: 1606344041}
-  - component: {fileID: 1606344040}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -6583,19 +6173,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 653535816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1606344040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606344038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1606344041
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6909,7 +6486,6 @@ GameObject:
   - component: {fileID: 1715785795}
   - component: {fileID: 1715785798}
   - component: {fileID: 1715785797}
-  - component: {fileID: 1715785796}
   m_Layer: 0
   m_Name: Color_0
   m_TagString: Untagged
@@ -6932,19 +6508,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1424156354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1715785796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715785794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1715785797
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7082,7 +6645,6 @@ GameObject:
   - component: {fileID: 1773799351}
   - component: {fileID: 1773799354}
   - component: {fileID: 1773799353}
-  - component: {fileID: 1773799352}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -7105,19 +6667,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1424156354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1773799352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1773799350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1773799353
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7220,7 +6769,6 @@ GameObject:
   - component: {fileID: 1816486513}
   - component: {fileID: 1816486516}
   - component: {fileID: 1816486515}
-  - component: {fileID: 1816486514}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -7243,19 +6791,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 695727136}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1816486514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816486512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1816486515
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7393,7 +6928,6 @@ GameObject:
   - component: {fileID: 1860588964}
   - component: {fileID: 1860588967}
   - component: {fileID: 1860588966}
-  - component: {fileID: 1860588965}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -7416,19 +6950,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 515450262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1860588965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860588963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1860588966
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7531,7 +7052,6 @@ GameObject:
   - component: {fileID: 1867756822}
   - component: {fileID: 1867756825}
   - component: {fileID: 1867756824}
-  - component: {fileID: 1867756823}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -7554,19 +7074,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1554676601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1867756823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1867756821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1867756824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7945,7 +7452,6 @@ GameObject:
   - component: {fileID: 1950227377}
   - component: {fileID: 1950227380}
   - component: {fileID: 1950227379}
-  - component: {fileID: 1950227378}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -7968,19 +7474,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 349184695}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1950227378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950227376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1950227379
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8083,7 +7576,6 @@ GameObject:
   - component: {fileID: 1974266545}
   - component: {fileID: 1974266548}
   - component: {fileID: 1974266547}
-  - component: {fileID: 1974266546}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -8106,19 +7598,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 144472029}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1974266546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974266544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1974266547
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8221,7 +7700,6 @@ GameObject:
   - component: {fileID: 1988677715}
   - component: {fileID: 1988677718}
   - component: {fileID: 1988677717}
-  - component: {fileID: 1988677716}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -8244,19 +7722,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 527936726}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1988677716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988677714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &1988677717
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8359,7 +7824,6 @@ GameObject:
   - component: {fileID: 2016019268}
   - component: {fileID: 2016019271}
   - component: {fileID: 2016019270}
-  - component: {fileID: 2016019269}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -8382,19 +7846,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1417786816}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2016019269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016019267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &2016019270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8497,7 +7948,6 @@ GameObject:
   - component: {fileID: 2042056578}
   - component: {fileID: 2042056581}
   - component: {fileID: 2042056580}
-  - component: {fileID: 2042056579}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -8520,19 +7970,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 527936726}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2042056579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2042056577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &2042056580
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8635,7 +8072,6 @@ GameObject:
   - component: {fileID: 2055767102}
   - component: {fileID: 2055767105}
   - component: {fileID: 2055767104}
-  - component: {fileID: 2055767103}
   m_Layer: 0
   m_Name: Color_2
   m_TagString: Untagged
@@ -8658,19 +8094,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 144472029}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2055767103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055767101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &2055767104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8773,7 +8196,6 @@ GameObject:
   - component: {fileID: 2085129920}
   - component: {fileID: 2085129923}
   - component: {fileID: 2085129922}
-  - component: {fileID: 2085129921}
   m_Layer: 0
   m_Name: Color_1
   m_TagString: Untagged
@@ -8796,19 +8218,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 144472029}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2085129921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2085129919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &2085129922
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8911,7 +8320,6 @@ GameObject:
   - component: {fileID: 2090439800}
   - component: {fileID: 2090439803}
   - component: {fileID: 2090439802}
-  - component: {fileID: 2090439801}
   m_Layer: 0
   m_Name: Color_3
   m_TagString: Untagged
@@ -8934,19 +8342,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 527936726}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2090439801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090439799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d08830b234cc4604bdfe336cee7f86e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _submitterColors: 1
 --- !u!212 &2090439802
 SpriteRenderer:
   m_ObjectHideFlags: 0

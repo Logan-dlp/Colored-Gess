@@ -61,7 +61,8 @@ namespace ColoredGess.Players
 
                 if (_isTryToNext)
                 {
-                    Debug.Log("Trying to Next Color");
+                    // data.ColorSubmitToGessArray = _colorSubmitArray;
+                    return new ValidationColor();
                 }
             }
             return null;
@@ -69,6 +70,11 @@ namespace ColoredGess.Players
 
         public void Exit(PlayerStateData data)
         {
+            for (int i = 0; i < _colorSubmitArray.Length; i++)
+            {
+                data.ColorSubmitToGessArray[i] = _colorSubmitArray[i];
+            }
+            
             _lineHandler.OnIndexChange -= (index) => _colorIndex = index;
             _lineHandler.DisableLine(data.CurrentLineIndex);
             

@@ -41,7 +41,7 @@ namespace ColoredGess.Players
                 spriteRenderer.color = new Color(spriteRenderer.color.r, 
                     spriteRenderer.color.g, 
                     spriteRenderer.color.b, 
-                    128f);
+                    .5f);
         }
         
         private void OnMouseDown()
