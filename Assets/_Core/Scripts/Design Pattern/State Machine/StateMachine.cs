@@ -2,7 +2,7 @@
 
 namespace ColoredGess.StateMachine
 {
-    public abstract class StateMachine<T> : MonoBehaviour where T : struct
+    public abstract class StateMachine<T> : MonoBehaviour where T : class
     {
         protected T _data;
         
