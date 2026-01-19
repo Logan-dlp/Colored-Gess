@@ -65,6 +65,10 @@ namespace ColoredGess.Players
 
         public void Exit(PlayerStateData data)
         {
+            var validatorHandler = GameObject.FindAnyObjectByType<ValidatorHandler>();
+            if (validatorHandler != null)
+                validatorHandler.ColorLine(data.CurrentLineIndex, _validationResultArray);
+            
             data.CurrentLineIndex++;
         }
     }
