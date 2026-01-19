@@ -2,9 +2,10 @@
 {
     using Colors;
     
-    public struct PlayerStateData
+    public class PlayerStateData
     {
         public int CurrentLineIndex;
         public ColorsType[] ColorToGessArray;
+        public ColorsType[] ColorSubmitToGessArray;
     }
 }

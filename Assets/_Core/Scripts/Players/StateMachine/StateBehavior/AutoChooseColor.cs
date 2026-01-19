@@ -31,7 +31,10 @@ namespace ColoredGess.Players
 
         public void Exit(PlayerStateData data)
         {
-            
+            foreach (ColorsType colorsType in data.ColorToGessArray)
+            {
+                Debug.Log(colorsType);
+            }
         }
     }
 }

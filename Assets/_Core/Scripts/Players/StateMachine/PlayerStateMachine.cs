@@ -11,6 +11,7 @@
             {
                 CurrentLineIndex = 0,
                 ColorToGessArray = new ColorsType[ColoredGessParameter.MaxColorsToGess],
+                ColorSubmitToGessArray = new ColorsType[ColoredGessParameter.MaxColorsToGess],
             };
             
             TransitionTo(new AutoChooseColor());
