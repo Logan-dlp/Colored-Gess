@@ -3,6 +3,7 @@
 namespace ColoredGess.Players
 {
     using Colors;
+    using Scenes;
     using StateMachine;
     
     public class ValidationColor : IState<PlayerStateData>
@@ -49,17 +50,15 @@ namespace ColoredGess.Players
                 {
                     if (data.CurrentLineIndex + 1 < ColoredGessParameter.MaxLineCount)
                     {
-                        // Try again
                         return new PlaceCamera();
                     }
                     
-                    // Loose game
-                    Debug.Log("loose");
+                    SceneManager.Instance.SwitchScene(ScenesNames.LOOSE_GAME_SCENE);
                     return null;
                 }
             }
             
-            // Win game
+            SceneManager.Instance.SwitchScene(ScenesNames.WIN_GAME_SCENE);
             return null;
         }
 
