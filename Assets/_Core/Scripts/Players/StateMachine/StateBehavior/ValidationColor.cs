@@ -32,6 +32,10 @@ namespace ColoredGess.Players
                         _validationResultArray[i] = ValidateType.NO_PLACE;
                 }
             }
+            
+            var validatorHandler = GameObject.FindAnyObjectByType<ValidatorHandler>();
+            if (validatorHandler != null)
+                validatorHandler.ColorLine(data.CurrentLineIndex, _validationResultArray);
         }
 
         public IState<PlayerStateData> Update(PlayerStateData data)
@@ -63,11 +67,7 @@ namespace ColoredGess.Players
         }
 
         public void Exit(PlayerStateData data)
-        {
-            var validatorHandler = GameObject.FindAnyObjectByType<ValidatorHandler>();
-            if (validatorHandler != null)
-                validatorHandler.ColorLine(data.CurrentLineIndex, _validationResultArray);
-            
+        { 
             data.CurrentLineIndex++;
         }
     }
