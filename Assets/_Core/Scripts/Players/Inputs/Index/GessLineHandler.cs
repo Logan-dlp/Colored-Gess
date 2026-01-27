@@ -56,7 +56,7 @@ namespace ColoredGess.Players
 
         public void SetUpColorAt(int line, int index, ColorsType color)
         {
-            _lineArray[line].transform.GetChild(index).gameObject.GetComponent<SpriteRenderer>().color = color.Color();
+            _lineArray[line].transform.GetChild(index).transform.GetChild(0).transform.GetComponent<SpriteRenderer>().color = color.Color();
         }
 
         public void SetUpCursorPosition(int line, int index)
