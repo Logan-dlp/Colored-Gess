@@ -15,7 +15,7 @@ namespace ColoredGess.Players
 
             for (int i = 0; i < validateType.Length; i++)
             {
-                _lineArray[lineIndex].transform.GetChild(i).GetComponent<SpriteRenderer>().color = validateType[i].Color();
+                _lineArray[lineIndex].transform.GetChild(i).transform.GetChild(0).transform.GetComponent<SpriteRenderer>().color = validateType[i].Color();
             }
         }
     }

@@ -29,7 +29,7 @@ namespace ColoredGess.Players
                 spriteRenderer.color = new Color(spriteRenderer.color.r, 
                                                     spriteRenderer.color.g, 
                                                     spriteRenderer.color.b, 
-                                                    255f);
+                                                    1);
         }
         
         private void DesactivateValidateInputs()

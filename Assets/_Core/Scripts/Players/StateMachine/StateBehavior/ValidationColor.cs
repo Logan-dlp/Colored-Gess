@@ -32,6 +32,10 @@ namespace ColoredGess.Players
                         _validationResultArray[i] = ValidateType.NO_PLACE;
                 }
             }
+            
+            var validatorHandler = GameObject.FindAnyObjectByType<ValidatorHandler>();
+            if (validatorHandler != null)
+                validatorHandler.ColorLine(data.CurrentLineIndex, _validationResultArray);
         }
 
         public IState<PlayerStateData> Update(PlayerStateData data)
@@ -53,22 +57,17 @@ namespace ColoredGess.Players
                         return new PlaceCamera();
                     }
                     
-                    SceneManager.Instance.SwitchScene(ScenesNames.LOOSE_GAME_SCENE);
-                    return null;
+                    return new LooseGame();
                 }
             }
             
-            SceneManager.Instance.SwitchScene(ScenesNames.WIN_GAME_SCENE);
-            return null;
+            return new WinGame();
         }
 
         public void Exit(PlayerStateData data)
-        {
-            var validatorHandler = GameObject.FindAnyObjectByType<ValidatorHandler>();
-            if (validatorHandler != null)
-                validatorHandler.ColorLine(data.CurrentLineIndex, _validationResultArray);
-            
-            data.CurrentLineIndex++;
+        { 
+            if (data.CurrentLineIndex + 1 < ColoredGessParameter.MaxLineCount)
+                data.CurrentLineIndex++;
         }
     }
 }

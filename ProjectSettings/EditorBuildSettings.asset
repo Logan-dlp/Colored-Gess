@@ -6,14 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Core/Scenes/2025.1/Features/Game.unity
-    guid: 8ab401a32af4dc34dbd889981c0fdbf9
+    path: Assets/_Core/Scenes/2026.2/Menu.unity
+    guid: af2b844315b27f043a428763ef8a8366
   - enabled: 1
-    path: Assets/_Core/Scenes/2025.1/Features/Loose.unity
-    guid: 8110fed863e691246a9b4830609c3499
-  - enabled: 1
-    path: Assets/_Core/Scenes/2025.1/Features/Win.unity
-    guid: 93cda0a5817d5d94696c9d6873bbea0a
+    path: Assets/_Core/Scenes/2026.2/Game.unity
+    guid: 29727e51c53f8ee43aa5554562a0060a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
